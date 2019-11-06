@@ -12,7 +12,7 @@ let package = Package(
         .package(url: "https://github.com/DomAmato/CSSH", .branch("master")),
     ],
     targets: [
-        .target(name: "Shout", dependencies: ["Socket", "CSSH"]),
+        .target(name: "Shout", dependencies: ["Socket"]),
         .testTarget(name: "ShoutTests", dependencies: ["Shout"]),
     ]
 )
