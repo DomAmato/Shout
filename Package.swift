@@ -4,12 +4,12 @@ import PackageDescription
 
 let package = Package(
     name: "Shout",
+    pkgConfig: "Libssh2",
     products: [
         .library(name: "Shout", targets: ["Shout"]),
     ],
     dependencies: [
         .package(url: "https://github.com/IBM-Swift/BlueSocket", from: "1.0.50"),
-        .package(url: "https://github.com/DomAmato/CSSH", .branch("master")),
     ],
     targets: [
         .target(name: "Shout", dependencies: ["Socket"]),

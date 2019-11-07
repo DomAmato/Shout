@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CSSH
 
 /// Manages an SFTP session
 public class SFTP {

@@ -5,8 +5,6 @@
 //  Created by Jake Heiser on 3/6/18.
 //
 
-import CSSH
-
 public struct SSHError: Swift.Error, CustomStringConvertible {
     
     public enum Kind: Int32 {

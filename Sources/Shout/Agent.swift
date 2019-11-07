@@ -5,8 +5,6 @@
 //  Created by Jake Heiser on 3/4/18.
 //
 
-import CSSH
-
 /// Direct bindings to libssh2_agent
 class Agent {
     

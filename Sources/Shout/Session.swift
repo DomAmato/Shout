@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CSSH
 import Socket
 
 /// Direct bindings to libssh2_session
