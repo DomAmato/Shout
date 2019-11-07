@@ -4,7 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "Shout",
-    pkgConfig: "Libssh2",
     products: [
         .library(name: "Shout", targets: ["Shout"]),
     ],
